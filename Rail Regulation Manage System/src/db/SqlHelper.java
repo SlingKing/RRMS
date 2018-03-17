@@ -16,7 +16,7 @@ public class SqlHelper {
     {
         try {
                 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");                             
-                ct=DriverManager.getConnection("jdbc:sqlserver://219.217.155.159:1433;databaseName=RRMS;user=sa;password=leng7666352");
+                ct=DriverManager.getConnection("jdbc:sqlserver://219.217.155.159:1433;databaseName=RRMS;user=sa;password=");
             }catch(Exception e){
             e.printStackTrace();
         }
