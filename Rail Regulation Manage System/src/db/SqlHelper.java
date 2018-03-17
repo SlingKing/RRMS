@@ -16,7 +16,7 @@ public class SqlHelper {
     {
         try {
                 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");                             
-                ct=DriverManager.getConnection("jdbc:sqlserver://219.217.155.159:1433;databaseName=RRMS;user=sa;password=");
+                ct=DriverManager.getConnection("jdbc:sqlserver://:1433;databaseName=RRMS;user=sa;password=");//补充自身IP与数据库登录名
             }catch(Exception e){
             e.printStackTrace();
         }
